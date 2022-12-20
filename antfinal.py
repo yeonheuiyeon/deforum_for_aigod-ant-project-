@@ -308,7 +308,7 @@ def make_prompts(gpt3make):
 
     return animation_prompts
 
-openai.api_key = "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"
+openai.api_key = <your api key here>
 
 def generation_text(translation):
     response = openai.Completion.create(
